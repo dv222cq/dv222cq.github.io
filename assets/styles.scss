@@ -1,0 +1,69 @@
+---
+---
+
+// start content
+@import "/assets/main.css";
+
+// Variables
+$font-stack:      Helvetica, sans-serif;
+$primary-color:   #184735;
+$primary-dark:    #ff0000;
+$bg-color:        #f7f7f7;
+
+body {
+  background-color: $bg-color;
+  font-family:   $font-stack;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+h2 {
+  color: $primary-color;
+}
+
+.post-list h3 {
+  margin-bottom: 4px;
+}
+
+.post-meta {
+  font-variant: small-caps;
+}
+
+.post-meta::before {
+  content: "— ";
+}
+
+a {
+  color: #2a7ae2;
+}
+
+a:visited {
+  color: #1756a9;
+}
+
+a:hover {
+  color: #2a7ae2;
+  text-decoration: underline;
+}
+
+nav.site-nav a.page-link {
+  color: $primary-color;
+}
+
+figcaption {
+  color: $primary-color;
+  text-align: center;
+  padding: 4px;
+}
+
+.profile-image {
+  float: right;
+  margin: 0 0 32px 32px;
+  width: 40%;
+}
+
+.site-title, .site-title:visited {
+  color: #555;
+}

@@ -1,0 +1,22 @@
+/* AUTHOR */
+	Chef: David Vingen
+	Contact: dv222cq [at] student.lnu.se
+	GitHub: dv222cq
+	From: Kristiansand, Norway
+
+/* SUPERVISORS */
+	Teacher: Johan Leitet
+  UNIVERSITY LECTURER – Linnaeus University
+
+  Teacher: Mats Loock
+  UNIVERSITY LECTURER – Linnaeus University
+
+  Assistant teacher: John Häggerud
+  UNIVERSITY LECTURER – Linnaeus University
+
+/* SITE */
+	First published: 2019-11-14
+  Last updated: 2012-02-04
+
+	Software: Visual Studio Code, Adobe Photoshop
+  Framework: Jekyll – https://jekyllrb.com/
