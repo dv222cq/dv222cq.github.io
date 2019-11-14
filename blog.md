@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Posts
+permalink: /blog/
 ---
 Here you'll find any utterances I find necessary to make — be that externally imposed or internally motivated.
 <ul>

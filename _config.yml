@@ -22,6 +22,7 @@ title: David's space
 email: dv222cq@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Site generated with Jekyll SSG and SASS, as part of the course 1DV022 – Klientbaserad programmering, at Linnaeus University, Sweden.
+image: /assets/david.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
