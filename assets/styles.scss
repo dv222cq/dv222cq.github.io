@@ -5,10 +5,16 @@
 @import "/assets/main.css";
 
 // Variables
-$font-stack:      Helvetica, sans-serif;
+$font-stack:      system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", "Segoe UI";
 $primary-color:   #184735;
 $primary-dark:    #ff0000;
 $bg-color:        #f7f7f7;
+
+%section-divider-default {
+  border-top:     1px solid #e8e8e8;;
+  padding-top:    32px;
+  margin-top:     32px;
+}
 
 body {
   background-color: $bg-color;
@@ -24,17 +30,25 @@ h2 {
 }
 
 h2.post-list-heading {
-  border-top: 1px solid #e8e8e8;
-  padding-top: 32px;
-  margin-top: 32px;
+  @extend %section-divider-default;
 }
 
 .post-list h3 {
   margin-bottom: 4px;
 }
 
+pre, code {
+  border-color: #ddd;
+  background-color: #eee;
+}
+
 .post-meta {
   font-variant: small-caps;
+}
+
+#disqus_thread {
+  @extend %section-divider-default;
+  margin-top: 64px;
 }
 
 .post-meta::before {
