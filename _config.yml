@@ -83,3 +83,9 @@ disqus:
 
 # Enable post excerpts
 show_excerpts: tru
+
+# Specify navigation headers
+header_pages: 
+ - about.md
+ - blog.md
+ - projects.md
