@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+image: /assets/og-david.jpg
 permalink: /projects/
 ---
 Appears to be nothing here at this point.

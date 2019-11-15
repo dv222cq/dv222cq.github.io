@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About David
+image: /assets/og-david.jpg
 permalink: /about/
 ---
 
