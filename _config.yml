@@ -58,6 +58,10 @@ collections:
   projects:
     output: true
 
+# SEO tags
+seo:
+  type: Person
+
 # Front matter defaults
 #defaults:
 #  - scope:
