@@ -38,8 +38,8 @@ h2.post-list-heading {
 }
 
 pre, code {
-  border-color: #ddd;
-  background-color: #eee;
+  border-color: #CAD3D0;
+  background-color: #E7EAE9;
 }
 
 .post-meta {
@@ -71,6 +71,8 @@ a:hover {
 nav.site-nav a.page-link {
   color: $primary-color;
 }
+
+/* Figure og figcaption, høyre, venstre og midtstilt gjennom inheritance. */
 
 figcaption {
   color: $primary-color;

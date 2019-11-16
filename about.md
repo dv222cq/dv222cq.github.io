@@ -10,11 +10,11 @@ permalink: /about/
 <figcaption>The mug shot</figcaption>
 </figure>
 
-**My name is David Vingen,** and I'm a 3<sup>rd</sup> (and final) year interaction design student at [Linnaeus University](https://lnu.se/) of Sweden. In a previous millennium, I had the privilege of taking my first steps into the web design world, using table- and frame-based design with marquees and other fun stuff.
+**My name is David Vingen,** and I'm a 3<sup>rd</sup> (and final) year interaction design student at [Linnaeus University](https://lnu.se/){:target="_blank"} of Sweden. In a previous millennium, I had the privilege of taking my first steps into the web design world, using table- and frame-based design with marquees and other fun stuff.
 
 **_Design_ was always my forte,** spending countless hours following Photoshop tutorials and making mockups never to be released. (X)HTML and CSS became my way of realizing my Photoshop creations, so I developed a decent footing therein. I made an effort to learn server-side scripting with PHP and MySQL, but never really got the hang of it.
 
-**Come the dot-com bubble,** and I didn't have the confidence to pursue web design as profession. Design and development remained a serious hobby, until a brother of mine wanted to start his own business. I offered to help, having heard about Zen Cart and other open source eCommerce platforms. A few years on I'm working full-time at the company, wading the deep waters of [Magento](https://magento.com/).
+**Come the dot-com bubble,** and I didn't have the confidence to pursue web design as profession. Design and development remained a serious hobby, until a brother of mine wanted to start his own business. I offered to help, having heard about Zen Cart and other open source eCommerce platforms. A few years on I'm working full-time at the company, wading the deep waters of [Magento](https://magento.com/){:target="_blank"}.
 
 **The experience reignited my belief in design and development as profession,** and I proceeded to take a couple of courses introducing me to _interaction design_, which proved to be spot-on for my propensities for design and knowledge-based problem solving.
 
