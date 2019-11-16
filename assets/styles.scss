@@ -1,19 +1,24 @@
 ---
 ---
-
 // start content
 @import "/assets/main.css";
 
 // Variables
-$font-stack:      system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", "Segoe UI";
 $primary-color:   #184735;
-$primary-dark:    #ff0000;
+$secondary-color: #555555;
 $bg-color:        #f7f7f7;
+$link-color:      #2a7ae2;
+$font-stack:      system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+$type-size-factor:1.618;
+$grid-scale:      8px;
+
+/* Nesting (use carefully, avoiding unwanted specificity) */
+/* Mixins: browser prefixes */
 
 %section-divider-default {
-  border-top:     1px solid #e8e8e8;;
-  padding-top:    32px;
-  margin-top:     32px;
+  border-top:     1px solid rgba(invert($bg-color), .1);
+  padding-top:    4 * $grid-scale;
+  margin-top:     4 * $grid-scale;
 }
 
 body {
@@ -21,11 +26,7 @@ body {
   font-family:   $font-stack;
 }
 
-h1 {
-  color: $primary-color;
-}
-
-h2 {
+h1, h2 {
   color: $primary-color;
 }
 
@@ -34,12 +35,12 @@ h2.post-list-heading {
 }
 
 .post-list h3 {
-  margin-bottom: 4px;
+  margin-bottom: .5 * $grid-scale;
 }
 
 pre, code {
-  border-color: #CAD3D0;
-  background-color: #E7EAE9;
+  border-color: rgba($primary-color, 0.2);
+  background-color: rgba($primary-color, 0.1);
 }
 
 .post-meta {
@@ -48,7 +49,7 @@ pre, code {
 
 #disqus_thread {
   @extend %section-divider-default;
-  margin-top: 64px;
+  margin-top: 8 * $grid-scale;
 }
 
 .post-meta::before {
@@ -56,36 +57,34 @@ pre, code {
 }
 
 a {
-  color: #2a7ae2;
-}
+  color: $link-color;
 
-a:visited {
-  color: #1756a9;
-}
+  &:visited {
+    color: darken($link-color, 15%)
+  }
 
-a:hover {
-  color: #2a7ae2;
-  text-decoration: underline;
+  &:hover {
+    color: $link-color;
+    text-decoration: underline;
+  }
 }
 
 nav.site-nav a.page-link {
   color: $primary-color;
 }
 
-/* Figure og figcaption, høyre, venstre og midtstilt gjennom inheritance. */
-
 figcaption {
   color: $primary-color;
   text-align: center;
-  padding: 4px;
+  padding: .5 * $grid-scale;
 }
 
 .profile-image {
   float: right;
-  margin: 0 0 32px 32px;
+  margin: 0 0 4*$grid-scale 4*$grid-scale;
   width: 40%;
 }
 
 .site-title, .site-title:visited {
-  color: #555;
+  color: $secondary-color;
 }

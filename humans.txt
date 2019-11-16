@@ -6,17 +6,17 @@
 
 /* SUPERVISORS */
 	Teacher: Johan Leitet
-  UNIVERSITY LECTURER – Linnaeus University
+	University lecturer at Linnaeus University
 
-  Teacher: Mats Loock
-  UNIVERSITY LECTURER – Linnaeus University
+	Teacher: Mats Loock
+	University lecturer at Linnaeus University
 
-  Assistant teacher: John Häggerud
-  UNIVERSITY LECTURER – Linnaeus University
+	Assistant teacher: John Häggerud
+	University lecturer at Linnaeus University
 
 /* SITE */
 	First published: 2019-11-14
-  Last updated: 2012-02-04
+	Last updated: 2012-02-04
 
 	Software: Visual Studio Code, Adobe Photoshop
-  Framework: Jekyll – https://jekyllrb.com/
+	Framework: Jekyll – https://jekyllrb.com/

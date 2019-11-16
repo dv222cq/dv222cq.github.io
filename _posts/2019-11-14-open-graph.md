@@ -5,7 +5,7 @@ date:   2019-11-14 00:17:59 -0600
 categories: open-graph
 image: /assets/og-slack.png
 ---
-"The Open Graph protocol enables any web page to become a rich object in a social graph." (Open Graph, 2019) In practice, this means Facebook, Slack, Twitter and other platforms may fetch images and descriptions, displaying your link as a "card", rather than a plain text link. Which again translates to user friendliness and considerably more clicks.
+"The Open Graph protocol enables any web page to become a rich object in a social graph." ([Open Graph, 2019](https://ogp.me/){:target="_blank"}) In practice, this means Facebook, Slack, Twitter and other platforms may fetch images and descriptions, displaying your link as a "card", rather than a plain text link. Which again translates to user friendliness and considerably more clicks.
 
 <figure>
 <img src="/assets/og-slack.png" alt="Screen shot of sharing a link to this site in Slack." />
